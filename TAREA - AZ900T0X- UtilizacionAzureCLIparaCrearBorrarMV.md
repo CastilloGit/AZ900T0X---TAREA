@@ -14,7 +14,7 @@ az login
 
 
 
-![image-20201119092332350](C:\AZ900T0X\Tarea\image-20201119092332350.png)
+![image-20201119092332350](image-20201119092332350.png)
 
 
 
@@ -26,7 +26,7 @@ az login
 az group create -l EastUS -n myRGCLI 
 ```
 
-![image-20201119091915133](C:\AZ900T0X\Tarea\image-20201119091915133.png)
+![image-20201119091915133](image-20201119091915133.png)
 
 
 
@@ -43,9 +43,9 @@ az vm create ^
  --no-wait
 ```
 
-![image-20201119092359234](C:\AZ900T0X\Tarea\image-20201119092359234.png)
+![image-20201119092359234](image-20201119092359234.png)
 
-![](C:\AZ900T0X\Tarea\image-20201119092448789.png)
+![](image-20201119092448789.png)
 
 
 
@@ -60,7 +60,7 @@ ssh manager@52.146.38.240
 
 Password12345678
 
-![image-20201119120717481](C:\AZ900T0X\Tarea\image-20201119120717481.png)
+![image-20201119120717481](image-20201119120717481.png)
 
 1 - Actualizar en Linux
 
@@ -68,7 +68,7 @@ Password12345678
 sudo apt-get update
 ```
 
-![image-20201119120929244](C:\AZ900T0X\Tarea\image-20201119120929244.png)
+![image-20201119120929244](image-20201119120929244.png)
 
 
 
@@ -78,7 +78,7 @@ sudo apt-get update
 sudo apt upgrade
 ```
 
-![image-20201119121357620](C:\AZ900T0X\Tarea\image-20201119121357620.png)
+![image-20201119121357620](image-20201119121357620.png)
 
 3 - Instalar un servidor web
 
@@ -86,7 +86,7 @@ sudo apt upgrade
 sudo apt install -y apache2 apache2-utils
 ```
 
-![image-20201119121740629](C:\AZ900T0X\Tarea\image-20201119121740629.png)
+![image-20201119121740629](image-20201119121740629.png)
 
 
 
@@ -98,7 +98,7 @@ systemctl status apache2
 
 
 
-![](C:\AZ900T0X\Tarea\image-20201119121618928.png)
+![](image-20201119121618928.png)
 
 5 - Ponemos un mensaje en nuestra página de Apache
 
@@ -116,11 +116,11 @@ sudo vi index.html <ENTER>
 
 ```
 
-![image-20201119122032048](C:\AZ900T0X\Tarea\image-20201119122032048.png)
+![image-20201119122032048](image-20201119122032048.png)
 
-![image-20201119131440547](C:\AZ900T0X\Tarea\image-20201119131440547.png)
+![image-20201119131440547](image-20201119131440547.png)
 
-![image-20201119125844610](C:\AZ900T0X\Tarea\image-20201119125844610.png)
+![image-20201119125844610](image-20201119125844610.png)
 
 
 
@@ -130,7 +130,7 @@ sudo vi index.html <ENTER>
 exit <ENTER>
 ```
 
-![image-20201119122151017](C:\AZ900T0X\Tarea\image-20201119122151017.png)
+![image-20201119122151017](image-20201119122151017.png)
 
 **Nota:**
 
@@ -140,11 +140,11 @@ Destination PortRanges: 80
 
 Name: Port_80
 
-![image-20201119123143038](C:\AZ900T0X\Tarea\image-20201119123143038.png)
+![image-20201119123143038](image-20201119123143038.png)
 
 Probariamos que llegamos a la maquina virtual: con la IP desde cualquier navegador.
 
-![image-20201119144954963](C:\AZ900T0X\Tarea\image-20201119144954963.png)
+![image-20201119144954963](image-20201119144954963.png)
 
 ## Parar y "deallocate" la máquina virtual
 
