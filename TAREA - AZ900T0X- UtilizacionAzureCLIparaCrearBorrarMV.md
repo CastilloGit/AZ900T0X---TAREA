@@ -10,7 +10,7 @@ JOSE VICENTE TEJERO CALDERERA - 19/11/2020
 az login
 ```
 
-![image-20201119091750242](\Tarea\image-20201119091750242.png)
+![image-20201119091750242]
 
 
 
@@ -143,6 +143,8 @@ Name: Port_80
 ![image-20201119123143038](C:\AZ900T0X\Tarea\image-20201119123143038.png)
 
 Probariamos que llegamos a la maquina virtual: con la IP desde cualquier navegador.
+
+![image-20201119144954963](C:\AZ900T0X\Tarea\image-20201119144954963.png)
 
 ## Parar y "deallocate" la máquina virtual
 
