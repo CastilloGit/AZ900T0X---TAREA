@@ -1,5 +1,7 @@
 
 
+
+
 JOSE VICENTE TEJERO CALDERERA - 19/11/2020
 
 ## Creacion de la maquina virtual en Azure Cli
@@ -152,6 +154,8 @@ Probariamos que llegamos a la maquina virtual: con la IP desde cualquier navegad
 az vm stop --resource-group myRGCLI --name myVMCLI --no-wait
 ```
 
+![image-20201119150528792](image-20201119150528792.png)
+
 ```
 az vm deallocate -g myRGCLI -n myVMCLI --no-wait
 ```
@@ -180,11 +184,21 @@ Borrar el grupo de recursos
 az group delete -n myRGCLI  --yes --no-wait
 ```
 
+![image-20201119150716826](image-20201119150716826.png)
+
 ## Desconectamos de Azure
 
 ```
 az logout
 ```
+
+
+
+![image-20201119150754281](image-20201119150754281.png)
+
+
+
+![image-20201119150843536](image-20201119150843536.png)
 
 Mas información:
 
